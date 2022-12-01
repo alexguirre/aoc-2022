@@ -1,0 +1,109 @@
+[package]
+name = "aoc-2022"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[[bin]]
+name = "day1"
+path = "src/day1.rs"
+
+[[bin]]
+name = "day2"
+path = "src/day2.rs"
+
+[[bin]]
+name = "day3"
+path = "src/day3.rs"
+
+[[bin]]
+name = "day4"
+path = "src/day4.rs"
+
+[[bin]]
+name = "day5"
+path = "src/day5.rs"
+
+[[bin]]
+name = "day6"
+path = "src/day6.rs"
+
+[[bin]]
+name = "day7"
+path = "src/day7.rs"
+
+[[bin]]
+name = "day8"
+path = "src/day8.rs"
+
+[[bin]]
+name = "day9"
+path = "src/day9.rs"
+
+[[bin]]
+name = "day10"
+path = "src/day10.rs"
+
+[[bin]]
+name = "day11"
+path = "src/day11.rs"
+
+[[bin]]
+name = "day12"
+path = "src/day12.rs"
+
+[[bin]]
+name = "day13"
+path = "src/day13.rs"
+
+[[bin]]
+name = "day14"
+path = "src/day14.rs"
+
+[[bin]]
+name = "day15"
+path = "src/day15.rs"
+
+[[bin]]
+name = "day16"
+path = "src/day16.rs"
+
+[[bin]]
+name = "day17"
+path = "src/day17.rs"
+
+[[bin]]
+name = "day18"
+path = "src/day18.rs"
+
+[[bin]]
+name = "day19"
+path = "src/day19.rs"
+
+[[bin]]
+name = "day20"
+path = "src/day20.rs"
+
+[[bin]]
+name = "day21"
+path = "src/day21.rs"
+
+[[bin]]
+name = "day22"
+path = "src/day22.rs"
+
+[[bin]]
+name = "day23"
+path = "src/day23.rs"
+
+[[bin]]
+name = "day24"
+path = "src/day24.rs"
+
+[[bin]]
+name = "day25"
+path = "src/day25.rs"
