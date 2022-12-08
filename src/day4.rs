@@ -1,4 +1,8 @@
+mod profiler;
+
 fn main() {
+    let _p = profiler::profile();
+
     let input = include_str!("data/input4");
     let input_pairs = input
         .lines()

@@ -1,4 +1,8 @@
+mod profiler;
+
 fn main() {
+    let _p = profiler::profile();
+
     let input = include_str!("data/input5");
 
     let input_stacks = input.lines().take_while(|l| !l.is_empty()).collect::<Vec<_>>();

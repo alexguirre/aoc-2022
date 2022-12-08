@@ -1,6 +1,9 @@
 use std::cmp::max;
+mod profiler;
 
 fn main() {
+    let _p = profiler::profile();
+
     let input = include_str!("data/input1");
     let res = input
         .lines()

@@ -1,4 +1,6 @@
 
+mod profiler;
+
 fn priority(item: u8) -> u64 {
     match item {
         97..=122 /* a-z */ => item as u64 - 97 + 1,
@@ -8,6 +10,8 @@ fn priority(item: u8) -> u64 {
 }
 
 fn main() {
+    let _p = profiler::profile();
+
     let input = include_str!("data/input3");
     let res1 = input
         .lines()

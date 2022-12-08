@@ -1,4 +1,8 @@
+mod profiler;
+
 fn main() {
+    let _p = profiler::profile();
+
     let input = include_str!("data/input6");
 
     for (part, &marker_length) in [4usize, 14].iter().enumerate() {

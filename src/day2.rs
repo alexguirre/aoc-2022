@@ -1,4 +1,7 @@
+mod profiler;
+
 fn main() {
+    let _p = profiler::profile();
 
     const WIN_LUT: [u8; 3]  = [2, 0, 1]; // Rock defeats Scissors, Paper defeats Rock, Scissors defeats Paper
     const LOSS_LUT: [u8; 3] = [1, 2, 0];

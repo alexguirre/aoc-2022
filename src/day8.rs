@@ -1,10 +1,13 @@
+mod profiler;
+
 fn main() {
+    let _p = profiler::profile();
+
     let input = include_str!("data/input8");
     let grid = input
         .lines()
         .map(|l| l.as_bytes())
         .collect::<Vec<_>>();
-
     let res1 =
         grid.iter().enumerate().map(|(y, &row)| {
             row.iter().enumerate().filter(|&(x, &tree)| {

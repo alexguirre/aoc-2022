@@ -2,8 +2,11 @@ extern crate core;
 
 use std::collections::HashMap;
 use std::ops::Add;
+mod profiler;
 
 fn main() {
+    let _p = profiler::profile();
+
     let input = include_str!("data/input7");
 
     let mut dir_sizes: HashMap<String, usize> = HashMap::new();
